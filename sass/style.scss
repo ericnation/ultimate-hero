@@ -1,0 +1,305 @@
+@import "variables";
+
+/**** Sassy styles authored by: Eric Nation - 6/2/2014 ******/
+
+
+/****** BASICS *********/
+
+html {
+	height: 100%;
+
+	body {
+		margin: 0;
+	  padding: 0;
+	  border: 0;
+		font-family: $primary-font-family;
+		font-size: $primary-font-size;
+		line-height: $primary-font-line-height;
+		background: $body-background-color;
+	}
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+	padding-bottom: 150px;
+	box-sizing: border-box; // Supported by IE8+ as well
+}
+
+a {
+	color: $default-link-color;
+	text-decoration: none;
+
+	&:hover {
+		color: $default-link-color-hover;
+		text-decoration: none;
+	}
+}
+
+.page-wrap {
+	margin-bottom: -150px;;
+	min-height: 100%;
+
+	&::after {
+		content: "";
+		display: block;
+		height: 150px;
+	}
+}
+
+
+/***** HELPER CLASSES *****/
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+.fRight {
+	float: right!important;
+}
+
+.fLeft {
+	float: left!important;
+}
+
+/***** GRID *****/
+
+.container {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 10px 15px;
+}
+
+.one-third {
+	float: left;
+	width: 33%;
+}
+
+/***** NAVIGATION ******/
+
+nav {
+	height: 45px;
+	background: $secondary-color;
+	margin-bottom: 0px;
+	width: 100%;
+
+	a {
+		color: #DFDFDF!important;
+	}
+}
+
+
+/***** BANNER ******/
+
+#banner {
+	height: 400px;
+	background: url(/img/super-hero-bg-taller.jpg) center repeat-x;
+	margin-bottom: $elements-gap / 2 ;
+	display: block;
+	padding-top: 70px;
+	border-bottom: 7px solid $accent-color;
+
+	h1 {
+		font-size: 4.6em;
+		margin: 0px;
+		color: $primary-color;
+		font-family: $secondary-font-family;
+		text-shadow: 2px 2px 1px rgba(150, 150, 150, 0.89);
+	}
+}
+
+/******* MAIN CONTENT *********/
+
+.main-content {
+
+}
+
+
+h2.subheader {
+	font-size: 2.5em;
+	text-align: center;
+	margin-bottom: $elements-gap / 2;
+	font-family: $secondary-font-family;
+}
+
+h3 {
+	text-align: center;
+	font-style: italic;
+	margin-bottom: $elements-gap / 2;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   	font-weight: 300;
+}
+
+label {
+	font-size: 1.2em;
+}
+
+.btn-wrap a.btn {
+	display: block;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.btn {
+	width: 20%;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	border: 3px solid #fff;
+	color: $primary-color;
+	background: $accent-color;
+	cursor: pointer;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	outline: none;
+	position: relative;
+	margin-bottom: $elements-gap / 2;
+	margin-top: $elements-gap / 2;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	display: inline;
+
+	&:hover {
+		background: $primary-color;
+		color: $accent-color;
+		border: 3px solid $accent-color;
+	}
+}
+
+#superhero {
+	margin: 0 auto $elements-gap;
+
+	h4, p {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	h4 {
+		font-size: 1.9em!important;
+		line-height: 2.2em;
+		font-family: $secondary-font-family;
+
+		span {
+			font-size: 2.3em;
+			font-family: $secondary-font-family;
+		}
+	}
+
+	p {
+		font-size: 1.3em;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   		font-weight: 300;
+   		line-height: 30px;
+	}
+	span.alert {
+		background-color: #ffab34;
+		padding: 15px 40px;
+		color: $primary-color;
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+		width: 50%;
+	}
+
+	img {
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+	}
+
+	button.btn {
+		display: block;
+		position: relative;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+
+
+
+/******* FOOTER *********/
+
+footer {
+
+	background: $secondary-color;
+	height: 150px;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+
+	.container {
+		padding-top: 25px;
+	}
+
+	p {
+		margin-top: 40px;
+		color: #dfdfdf;
+	}
+}
+
+/******** RESPONSIVENESS **********/
+
+/* BREAK POINT FOR BANNER TEXT --------*/
+@media only screen and (max-width : 830px) {
+	h1 {
+			text-align: center;
+			line-height: 70px;
+	}
+	h2 {
+		line-height: 40px;
+	}
+
+	.btn {
+		width: 70%;
+	}
+
+
+}
+
+/* BREAKPOINT FOR BANNER BG IMAGE ----------- */
+@media only screen
+and (max-width : 410px) {
+	#banner {
+		height: 250px;
+		background: url(/img/super-hero-bg-taller.jpg) -5000px repeat-x;
+		margin-bottom: $elements-gap / 2 ;
+		display: block;
+		padding-top: 20px;
+	}
+
+	.main-content {
+		max-width: 96%;
+		margin: 0 auto;
+	}
+
+	label {
+		font-size: 1em;
+	}
+
+	#superhero {
+
+		h4 {
+			line-height: 1.7em;
+
+			span {
+				font-size: 1.8em;
+			}
+		}
+
+		span.alert {
+			width: 70%;
+		}
+	}
+
+	footer {
+		p {
+			margin-top: 20px;
+		}
+	}
+}

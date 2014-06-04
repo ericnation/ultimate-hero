@@ -1,0 +1,233 @@
+{
+  "superheros": 
+  [
+    {
+      "power": "Human Torch",
+      "description": "You have the power to wield and manipulate fire at temperatures equivalent to the surface of the sun",
+      "caveats": [
+        "you're incapable of grilling to 'medium rare'.",
+        "you sure picked the wrong month to quit smoking.",
+        "you live in an asbestos house.",
+        "you don't tan, you burn."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-fire.jpg"
+    },{
+      "power": "X-ray Vision",
+      "description": "You have the awesome power to see through any material",
+      "caveats": [
+        "it only works at Walmart.",
+        "you have a lazy eye."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-xray.jpg"
+    },{
+      "power": "Flight",
+      "description": "You have the ability to soar like an eagle anywhere in the world",
+      "caveats": [
+        "You have trouble sticking the landing",
+        " you feel compelled to migrate with the seasons",
+        " and bags are still $50 bucks."
+      ],
+      "nemesis": "Gravitis, watch out for this guy!",
+      "image": "http://meltmedia.com/images/superme/superme-flight.jpg"
+    },{
+      "power": "Laser Vision",
+      "description": "You have the super cool ability to shoot focused lasers with your eyes",
+      "caveats": [
+        "youâ€™re surrounded by cats."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-laser.jpg"
+    },{
+      "power": "Animal Telepath",
+      "description": "You have the incredible gift from nature to communicate with animals using just your mind",
+      "caveats": [
+        "greeting colleagues with a butt sniff is not universally appreciated.",
+        "you feel compelled to drive with your head out the window.",
+        "Aquaman keeps inviting you to the support group for useless superheroes."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-fox.jpg"
+    },{
+      "power": "Night Vision",
+      "description": "You have the magical gift to see clearly even in complete darkness",
+      "caveats": [
+        "but it only works during business hours.",
+        "you're on \"Team Edward\"."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-night.jpg"
+    },{
+      "power": "Mind Control",
+      "description": "You have the ability to influence what others think and control their will, all with the power of your mind",
+      "caveats": [
+        "your ideas generally suck.",
+        "you're a Kardashian."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-mind.jpg"
+    },{
+      "power": "Mind Reading",
+      "description": "You have the ability to silently read the thoughts of others around you",
+      "caveats": [
+        "you're surrounded by idiots.",
+        "you work at the DMV."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-mind.jpg"
+    },{
+      "power": "Invisibility",
+      "description": "You have the ability to be completely unnoticeable in public",
+      "caveats": [
+        "what else is new?"
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-invisible.jpg"
+    },{
+      "power": "Super Strength",
+      "description": "You are the strongest person in the world with the ability to lift 100x your own weight",
+      "caveats": [
+        "you're lactose intolerant and allergic to fabric softener."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-strong.jpg"
+    },{
+      "power": "Regeneration",
+      "description": "You have the ability to heal yourself at a superhuman rate and you never get sick",
+      "caveats": [
+        "only your tail will grow back.",
+        "your friends like to cut off your fingers at parties."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-default.jpg"
+    },{
+      "power": "Mastermind",
+      "description": "You have the ability to understand, retain and analyze information like a human supercomputer, making you the smartest person on the planet",
+      "caveats": [
+        "Oh, goooood for yoooooooou",
+        " nobody likes a know-it-all",
+        " and you can't make love out of nothing at all."
+      ],
+      "nemesis": "Sisyphus",
+      "image": "http://meltmedia.com/images/superme/superme-mind.jpg"
+    },{
+      "power": "Bulletproof",
+      "description": "Your skin is so amazingly strong and taut that bullets just bounce off you",
+      "caveats": [
+        "you just got invited to the knife party.",
+        "you look like a plastic surgery nightmare."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-indestructible.jpg"
+    },{
+      "power": "Time Control",
+      "description": "You have the ability to stop time and do things while everything else stands still",
+      "caveats": [
+        "It only works at the DMV",
+        " and you still can't skip the commercials."
+      ],
+      "nemesis": "Isolation",
+      "image": "http://meltmedia.com/images/superme/superme-default.jpg"
+    },{
+      "power": "Freeze Ray",
+      "description": "You have the power to manipulate the moisture in the air and freeze objects solid",
+      "caveats": [
+        "you never get to eat a warm meal.",
+        "you're surrounded by penguins."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-ice.jpg"
+    },{
+      "power": "Super Speed",
+      "description": "You are the fastest person on earth and capable of speeds over 250mph",
+      "caveats": [
+        "You're blind",
+        " and this skill is less desirable in the bedroom."
+      ],
+      "nemesis": "the King of Sloths",
+      "image": "http://meltmedia.com/images/superme/superme-fast.jpg"
+    },{
+      "power": "Indestructible",
+      "description": "You are impervious to any form of damage or destruction known to man",
+      "caveats": [
+        "So is your poop",
+        " and your mother-in-law is moving in."
+      ],
+      "nemesis": "NOBODY, except cats",
+      "image": "http://meltmedia.com/images/superme/superme-indestructible.jpg"
+    },{
+      "power": "Super Hearing",
+      "description": "You can hear the tiniest whisper of a sound, even over great distances",
+      "caveats": [
+        "as a librarian you engage in frequent, unnecessary confrontations.",
+        "you live next door to Fran Drescher."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-hearing.jpg"
+    },{
+      "power": "Shape Shifting",
+      "description": "You can change your shape into any animal",
+      "caveats": [
+        "you have fleas.",
+        "you instinctively mark your furniture.",
+        "other species see you as a viable mate."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-fox.jpg"
+    },{
+      "power": "Teleportation",
+      "description": "You can move through space and time to emerge anywhere else in the world",
+      "caveats": [
+        "Your clothes don't teleport with you."
+      ],
+      "nemesis": "Dinosaurs",
+      "image": "http://meltmedia.com/images/superme/superme-teleport.jpg"
+    },{
+      "power": "Elasticity",
+      "description": "You can stretch yourself 100x beyond your normal body dimensions",
+      "caveats": [
+        "it takes 24hrs to return to your normal shape.",
+        "you work at a pit bull rescue center and smell like bacon."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-stretch.jpg"
+    },{
+      "power": "Telekinesis",
+      "description": "You have the ability to manipulate and move objects with your mind",
+      "caveats": [
+        "You have A.D.D. and can't remember where you put things."
+      ],
+      "nemesis": "Jean Grey's cat",
+      "image": "http://meltmedia.com/images/superme/superme-mind.jpg"
+    },{
+      "power": "Healing Ability",
+      "description": "You have the superhuman ability to heal people with just your touch",
+      "caveats": [
+        "\"Feel Better Guy\" isn't a very catchy superhero name.",
+        "your friends always want you to 'look at something' on their body.",
+        "you have to touch them with your tongue."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-default.jpg"
+    },{
+      "power": "Master of Magnetism",
+      "description": "You have the ability to manipulate metal and magnetic fields",
+      "caveats": [
+        "you're hopelessly single.",
+        "you live in your mom's basement."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-magnet.jpg"
+    },{
+      "power": "Weather Wizard",
+      "description": "You have the ability to control the weather",
+      "caveats": [
+        "your theme song is \"It's raining men.\"",
+        "if it was up to your mom, itâ€™d be raining men."
+      ],
+      "nemesis": "cats",
+      "image": "http://meltmedia.com/images/superme/superme-flight.jpg"
+    }
+  ]
+}
