@@ -13,7 +13,7 @@
 		$.getJSON("powers.json", function(data) {
 			window.jsonData = data;
 		});
-	}
+	} 
 
 	function getHero(index) {
 		var data  = window.jsonData;
