@@ -11,8 +11,6 @@ HTML5 Boilerplate
 Sass
 	[sass-lang.com](http://sass-lang.com/)
 
-Javascript
-
-	Vanialla JS Smooth-Scroll Plugin
-		[smooth scroll](https://github.com/cferdinandi/smooth-scroll)
+Vanilla JS Smooth-Scroll Plugin
+	[smooth scroll](https://github.com/cferdinandi/smooth-scroll)
 
