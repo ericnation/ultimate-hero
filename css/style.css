@@ -83,7 +83,7 @@ nav a {
 /***** BANNER ******/
 #banner {
   height: 400px;
-  background: url(/img/super-hero-bg-taller.jpg) center repeat-x;
+  background: url(img/super-hero-bg-taller.jpg) center repeat-x;
   margin-bottom: 35px;
   display: block;
   padding-top: 70px;
@@ -228,7 +228,7 @@ footer p {
 @media only screen and (max-width: 410px) {
   #banner {
     height: 250px;
-    background: url(/img/super-hero-bg-taller.jpg) -5000px repeat-x;
+    background: url(img/super-hero-bg-taller.jpg) -5000px repeat-x;
     margin-bottom: 35px;
     display: block;
     padding-top: 20px;
